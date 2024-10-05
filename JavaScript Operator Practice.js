@@ -14,8 +14,12 @@ let text4 = "John";
 let text5 = "Doe";
 let text3 = text1 + " " + text2;
 
-
-
-for (let i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
+function letMeCallYou() {
+  alert("Working Testing Script Caller");
 }
+
+const myHonda = {
+  color: "red",
+  wheels: 4,
+  engine: { cylinders: 4, size: 2.2 },
+};
